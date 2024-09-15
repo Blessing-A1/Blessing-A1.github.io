@@ -11,9 +11,10 @@ h1 {
 #logo {
   margin: 0px;
   padding: 8px;
-  color: white;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  color: bisque;
+  font-family: "Carter One", sans-serif;
   padding: 16px;
+  font-weight: 600;
 }
 
 cite > a {
@@ -25,9 +26,9 @@ ul {
   margin: 10px;
 }
 body > header {
-  background-color: orange;
+  background-color: #491353;
   display: flex;
-  height: 12vh;
+  height: 20vh;
   align-items: center;
   justify-content: space-between;
 }
@@ -46,11 +47,16 @@ body > header > nav > ul {
 }
 
 .navbutton {
-  color: white;
+  color: bisque;
   text-decoration: none;
   padding: 12px;
-  border: 1px solid white;
-  border-radius: 10px;
+  border: 1px none bisque;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 25px;
+}
+
+.navbutton:hover {
+  color: rgb(237, 142, 237);
 }
 
 body > main article {
@@ -69,18 +75,21 @@ body > main article {
 
 h2 {
   text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 form {
   text-align: center;
 }
 body > footer {
-  background-color: orange;
+  background-color: #491353;
   display: flex;
 }
 
 img {
   border-radius: 50%;
+  width: 200px;
+  padding: 10px;
 }
 
 #footer-ul {
@@ -88,13 +97,16 @@ img {
   list-style: none;
 }
 
-#footer-ul > div > li {
-  margin-left: 12px;
-  color: white;
+#footer-ul > div > li > a {
+  color: bisque;
   text-decoration: none;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  padding: 20px;
+  margin: 0;
 }
 
-#footer-ul > div > li > a {
-  color: white;
-  text-decoration: none;
+#copy {
+  color: bisque;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
